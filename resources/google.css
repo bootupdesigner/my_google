@@ -1,0 +1,97 @@
+* { 
+   color: black; 
+}
+a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+/*********header menu ********/
+
+.nav {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items:  center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+div.right {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+.link {
+    padding: 20px 35px;  
+    
+}
+
+#letter {
+    background-color: fuchsia;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    padding: 22px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+}
+/*********** google logo and search ***********/
+div.center {
+    display:  grid;
+    justify-content: center;
+    margin-top: 5%;
+    grid-template-rows: 30vh 5vh;
+}
+.search-bar {
+    margin: 5px auto;
+    width: 50vw;
+    grid-row: 2;
+    border: 1 solid grey;
+}
+#search {
+    width: 50vw;
+    border: 1 solid grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+div.google {
+    grid-row: 1;
+    justify-self: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+/**** buttons ****/
+.button-grid {
+    display: grid;
+    grid-template-rows: auto;
+    margin-top: 10px;;
+}
+div.buttons {
+    display: flex;
+    justify-content: center;
+}
+.google-buttons {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgba(0,0,0,0.1);
+    border: 1px solid #fff;
+}
+/****** this is the footer ******/
+div.footer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgba(0,0,0,0.1);
+    position: fixed;
+    bottom: 0;
+}
+.footer-left {
+    display: flex;
+    justify-content: flex-start;
+}
+.footer-right {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
